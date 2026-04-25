@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -87,7 +91,7 @@ img {
   width: 100%;
   height: auto;
 }
-#btn-hero {
+.btn-hero {
   padding: 10px 10px;
   margin: 20px 50px;
   background-color: #3382f6;
@@ -137,36 +141,63 @@ img {
   font-size: 20px;
 }
 .quote {
+  text-align: center;
   align-self: center;
   color: #1f2937;
   font-size: 17px;
-  padding: 90px;
   background-color: #e5e7eb;
+  padding: 90px 50px;
 }
 .quote-by {
   text-align: right;
   font-size: 18px;
   color: black;
+  margin: 60px 50px;
 }
 .cta {
-  display: ;
- align-self: center;
+  align-items: center;
   color: #1f2937;
   font-size: 17px;
   padding: 90px;
   background-color: #b0b0b2;
+  line-height:25px;
 }
-.inner-cta{
+.inner-cta {
   color: #e5e7eb;
   background-color: #3382f6;
   border-radius: 25px;
-  padding: 20px;
+  padding: 70px;
+  margin: 20px;
+  text-size-adjust: spaced-evenly;
+  text-align:;
 }
-.inner-cta-final-button{
+.inner-cta-final-button {
   border-radius: 20px;
-  width: 9%;
+  width: 100px;
   height: auto;
-  color: #efe7eb
-  background-color:#3382f6;
-  border-color:#3382f6 solid 3px;
+  color: #efe7eb;
+  background-color: #3382f6;
+  border-color: #3382f6 solid 3px;
+  padding:10px 0px;
+  margin: 10px 0px;
+  
+
+}
+#footer {
+  display: flex;
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.copyright {
+  font-size: 20px;
+  
+}
+#button:hover{
+  cursor: pointer;
 }
